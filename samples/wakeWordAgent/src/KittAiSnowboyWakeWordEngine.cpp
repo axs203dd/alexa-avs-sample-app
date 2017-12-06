@@ -79,6 +79,7 @@ void KittAiSnowboyWakeWordEngine::resume() {
 
   log(Logger::INFO, "KittAiSnowboyWakeWordEngine: handling resume");
 
+  initDetector();
   initPortAudio();
 }
 
